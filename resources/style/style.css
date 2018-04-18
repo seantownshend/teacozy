@@ -74,7 +74,7 @@ nav span {
   padding-top: 70px;
   height: 700px;
   width: 1200px;
-  background-image: url("./resources/assets/img-mission-background.jpg")
+  background-image: url("../assets/img-mission-background.jpg")
 }
 
 #hero .content {
@@ -114,7 +114,7 @@ nav span {
 #locations {
   width: 1200px;
   height: 500px;
-  background-image: url("./resources/assets/img-locations-background.jpg");
+  background-image: url("../assets/img-locations-background.jpg");
   align-items: center;
   display: block;
   padding-top: 100px;
