@@ -1,13 +1,144 @@
 /* Universal Styles */
 
 body {
-  font-family; Helvetica;
-  font-size: 22px;
+  margin: 0;
+  font-family: "Helvetica", sans-serif;
   color: seashell;
   background-color: black;
-  opacity: 0.9;
+  font-size: 22px;
+  text-align: center;
 }
 
+a {
+  color: seashell;
+}
 
+h2,
+h4 {
+  margin: 0;
+  padding: 10px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Main Section */
+
+.main {
+  padding-top: 69px;
+  opacity: 0.9;
+  width: 1200px;
+  margin: auto;
+}
 
 /* Header */
+
+header {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 69px;
+  align-items: center;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+}
+
+header nav {
+  padding-right: 40px;
+}
+
+nav span {
+  padding-right: 20px;
+}
+
+.logo {
+  background-color: black;
+  display: flex;
+  flex-grow: 1;
+}
+
+.logo img {
+  width: 157px;
+  height: 50px;
+  padding-left: 10px;
+}
+
+/* Hero */
+
+#hero {
+  align-items: center;
+  margin: 0 auto;
+  padding-top: 70px;
+  height: 700px;
+  width: 1200px;
+  background-image: url(./resources/assets/img-mission-background.jpg)
+}
+
+#hero .content {
+  background-color: black;
+  width: 100%;
+  margin: auto;
+}
+
+/* Month */
+
+#month {
+  height: 700px;
+  width: 1000px;
+  margin: auto;
+  padding-top: 70px;
+}
+
+.month {
+  padding: 5px;
+}
+
+.month img {
+  height: 200px;
+  margin: 10px;
+  display: block;
+}
+
+.month span {
+  display: block;
+  padding: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Locations */
+
+#locations {
+  width: 1200px;
+  height: 500px;
+  background-image: url(./resources/assets/img-locations-background.jpg);
+  align-items: center;
+  display: block;
+  padding-top: 100px;
+}
+
+.locations-item {
+  display: block;
+  background-color: black;
+  width: 300px;
+  margin: 5px 20px;
+  padding: 15px 0px;
+}
+
+/* Contact */
+
+#contact {
+  background-color: #000000;
+  width: 100%;
+  height: 200px;
+}
+
+/* Footer */
+
+footer {
+  text-align: left;
+  padding-left: 20px;
+}
